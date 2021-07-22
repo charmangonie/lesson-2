@@ -1,0 +1,330 @@
+*{
+    /* ép kiểu trang web mặc điểu*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.homemenu{
+    background-image: url('./image/hero.jpg');
+    height: 700px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.opacity-menu{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 2;
+    position: absolute;
+}
+.max-width{
+    max-width: 1300px;
+    /* chiều ngang chỉ được max 1300*/
+    padding: 50px;
+    margin: 0 auto;
+}
+nav{
+    margin-left: 10%;
+}
+nav .max-width{
+    display: flex;
+    justify-content: space-around;
+}
+ nav .menu a {
+    display: inline-block;
+    position: relative;
+    /*cách nhau trái phải 30px*/
+    padding: 0 30px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+
+}
+.max-width .logo{
+    z-index: 9;
+}
+.max-width .logo img{
+    height: 80px;
+    width: 80px;
+}
+.max-width .menu a{
+    color: white;
+    font-size: 20px;
+    z-index: 4;
+}
+nav .menu{
+    line-height: 80px;
+}
+
+/*content menu*/
+.content-menu{
+    position: relative;
+    height: 200px;
+    width: 700px;
+    margin-left: 10%;
+    margin-top: 8%;
+    color:white;
+    z-index: 999;
+}
+.content-menu .text p{
+    font-size: 50px;
+    font-weight: 150;
+    line-height: 60px;
+    z-index: 9;
+}
+.content-menu .multi-button{
+    width: 320px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-menu .multi-button button{
+    width: 150px;
+    height: 40px;
+    outline: 5;
+    border: none;
+    background: none;
+    border: solid 2px orange;
+    border-radius: 30px;
+}
+#button1{
+    background: orange;
+    color: white;
+}
+#button2{
+    color: orange;
+}
+
+.container-part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.container-part2 p{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.title-border {
+    border-bottom: 3px solid orange;
+    width: 100px;
+    height: 2px;
+    margin-top: 30px;
+    padding: 0;
+}
+.part2-subtitle {
+    width: 60%;
+    margin-top: 30px;
+}
+.part2-subtitle p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.part2-row-detail{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+.part2-col {
+    width: 20%;
+}
+i{
+    color: orange;
+    font-weight: 400;
+    font-size: 50;
+    line-height: 70px;
+}
+.part2-col-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+.part2-col-detail{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+.container-part3{
+    width: 100%;
+    margin-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.part3-col-image img{
+    width: 100%;
+    height: 275px;
+    border: none;
+    display: block;
+    z-index: 1;
+}
+.part3-col-image{
+   width: 25%;
+}
+.container4{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(240, 240, 240);
+}
+.part4-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+.part4-title p{
+    font-size: 40px;
+    text-align: center;
+}
+.part4-body{
+    width: 800px;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.part4-body img{
+    width: 200px;
+    height: 410px;
+}
+.part4-steps{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.part4-steps .step{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part4-steps .step i{
+    font-size: 50px;
+    color: orange;
+}
+.part4-steps .step p{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.part4-steps .download img{
+    width: 160px;
+    height: 50px;
+}    
+.container5{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.part5-title{
+    width: 50%;
+    padding: 50px;
+    margin: 0;
+}
+.part5-title p{
+    font-size: 35px;
+    text-align: center;
+}
+.part5-title .title-border{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.feedback{
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form .label-area{
+    width: 100%;
+}
+form .label-area p{
+    line-height: 40px;
+}
+form .input-area{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.input-area input{
+    height: 30px;
+    margin-bottom: 10px;
+}
+.input-area select{
+    height: 30px;
+    margin-bottom: 10px;
+}
+.input-area .check-box{
+    display: flex;
+}
+.input-area .check-box p {
+    line-height: 30px;
+    margin-left: 10px;
+    display: block;
+    text-align: start;
+}
+.input-area button{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+}
+.container6{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 0 auto;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    line-height: 50px;
+    align-items: center;
+}
+.info .menu a {
+    font-size: 20px;
+    color: rgb(179, 177, 177);
+    font-weight: 400;
+}
+.contact-icon{
+    width: 15%;
+    margin-top: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-icon i{
+    color: rgb(179, 177, 177);
+}
